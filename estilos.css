@@ -1,0 +1,60 @@
+.box {
+    background-image: url(1713248.webp);
+    background-position: center;
+    background-size: 1500px;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+
+}
+
+body {
+    background-image: url(Diseño\ sin\ título.png);
+    background-size: 4000px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.titulo {
+    color: white;
+    text-align: center;
+    background-image: url(Diseño\ sin\ título.png);
+    background-position: center;
+    display: block;
+}
+
+.tabla th, td {
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.tabla {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#form {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#Contactar , .list {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.item-list {
+    list-style: none;
+}
+
+
+.item-list li::before {
+    content: "▸" ;
+    margin-right: 8px;
+}
